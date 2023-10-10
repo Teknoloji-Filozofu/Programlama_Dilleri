@@ -19,7 +19,6 @@ class Ogretmen:
 
 ali = Ogretmen("Ali","Salız",48,6000,"Coğrafya")
 
-
 # print(self.__Maas) #hata verecektir.
 
 print(ali.getMaas())
