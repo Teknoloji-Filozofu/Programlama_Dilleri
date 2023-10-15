@@ -1,0 +1,25 @@
+
+C de İşlemciler 
+
+İşlemci  Kullanma Amacı
+
+   *        Çarpma
+   /        Bölme
+   %        Bölme işleminde kalanı verme
+   +        Toplama
+   -        Çıkarma
+
+İşlemci    Anlamı
+
+   <       Küçüktür
+   <=      Küçüktür veya eşittir
+   >       Büyüktür
+   >=      Büyüktür veya eşittir
+   ==      Eşittir
+   !=      Eşit değildir
+
+İşlemci    Yapılan işlem
+
+   !          NOT
+   &&         AND
+   ||         OR
