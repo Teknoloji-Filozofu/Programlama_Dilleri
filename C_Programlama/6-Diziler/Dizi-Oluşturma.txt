@@ -1,0 +1,15 @@
+int idizi[10];      /* Tek boyutlu 10 elemanlı int dizi bildirimi */
+char cdizi[10];     /* Tek boyutlu 10 elemanlı char dizi bildirimi */
+
+int idizi[3][4];    /* İki boyutlu 12 elemanlı int dizi bildirimi */
+char cdizi[3][21];  /* İki boyutlu char dizi bildirimi */
+
+/* Eleman sayısı tanımsız 5 elemanlı int dizi bildirimi */
+int idizi[] = { 1, 2, 3, 4, 5 };
+
+/* Eleman sayısı tanımsız 6 elemanlı char dizi bildirimi (2 farklı yöntem) */  
+char cdizi[] = { 'R', 'a', 'k', 'a', 'm', '\0' };
+char cdizi[] = "Rakam";
+
+/* Eleman sayısı tanımsız çok boyutlu char dizi bildirimi */
+char cdizi[][20] = { "Çoklu", "Karakter", "Dizileri" };
