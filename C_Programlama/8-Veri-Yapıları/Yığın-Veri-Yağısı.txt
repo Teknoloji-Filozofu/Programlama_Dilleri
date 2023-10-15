@@ -1,0 +1,96 @@
+/*
+Yığın veri yapısının dizi ile uygulanması.
+*/
+
+#include<stdio.h>
+#define N 10
+
+	int stack[N];
+	int top = -1;
+	
+void push(int a){
+	if(top == N-1){
+		printf(" Yiginda yer yoktur. \n");
+}
+	else{
+		stack[++ top] = a;
+		printf(" %d yigina eklendi. \n", a);
+ }
+}
+
+int pop(){
+	if(top < 0){
+		printf(" Yiginda eleman yoktur. \n");
+		return -1;
+}
+	else{
+		int a = stack[top --];
+		printf(" %d yigindan cikarildi. \n", a);
+		return a;
+ }
+}
+
+int peek(){
+	if(top < 0){
+		printf(" Yiginda eleman yoktur. \n");
+		return -1;
+}
+	else{
+		printf(" %d yiginin tepe noktasindadir. \n", stack[top]);
+		return stack[top];
+}
+}
+
+/*
+Yığın veri yapısının bağlı liste ile uygulanması.
+*/
+
+#include<stdio.h>
+
+struct Node{
+	int data;
+	struct Node* next;
+};
+
+	struct Node* top = NULL;
+	
+void push(int a){
+	struct Node* t = (struct Node*) malloc(sizeof(struct Node));
+	t->data = a;
+	if(top == NULL){
+		top = t;
+		top->next = NULL;
+}
+	else{
+		t->next = top;
+		top = t;
+}
+	printf(" %d yigina eklendi \n", a);
+}
+
+int pop(){
+	if(top == NULL){
+		printf(" Yiginda eleman yoktur \n");
+		return -1;
+}
+	else{
+		struct Node* t = top;
+		int a = t->data;
+		top = top->next;
+		printf(" %d yigindan cikarildi \n", a);
+		free(t);
+		return a;
+ }
+}
+
+int peek(){
+	if(top == NULL){
+		printf(" Yiginda eleman yoktur \n");
+		return -1;
+}
+	else{
+		printf(" %d yiginin tepe noktasindadir\n", top->data);
+		return top->data;
+ }
+}
+
