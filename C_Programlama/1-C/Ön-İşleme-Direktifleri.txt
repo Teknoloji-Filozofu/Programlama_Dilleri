@@ -1,0 +1,16 @@
+
+C Ön İşleme Direktifleri
+
+#if // #elif // #else // #endif
+
+#define // #undef // #ifdef // #ifndef
+
+#include
+
+#line
+
+#error
+
+#pragma
+
+Önden Tanımlanmış Makrolar

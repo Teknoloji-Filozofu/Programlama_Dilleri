@@ -1,0 +1,189 @@
+
+C Kütüphaneleri 
+
+**asserr.h
+    - assert
+
+**ctype.h
+    - is..... Fonksiyonlar
+    - to..... Fonksiyonlar
+
+**errno.h
+    - EDOM 
+    - ERANGE
+    - errno
+
+**float.h
+    - Tanımlı Değerler
+
+**limits.h
+    - Tanımlı Değerler 
+
+**locale.h
+    - Değişkenler ve Tanımlar 
+    - setlocale 
+    - localeconv
+
+**math.h
+    - Hata Koşulları
+    - Trigonometrik Fonksiyonlar
+        + acos
+        + asin
+        + atan 
+        + atan2
+        + cos
+        + cosh
+        + sin 
+        + sinh
+        + tan 
+        + tanh
+    - Üstel ve Logaritmik Fonksiyonlar
+        + exp
+        + frexp
+        + log
+        + log10
+        + modf
+        + pow
+        + sqrt
+    - Diğer Matematik Fonksiyonları
+        + ceil 
+        + fabs
+        + floor
+        + fmod
+
+**setjmp.h
+    - Değişkenler ve Tanımlar 
+    - setjmp
+    - longjmp
+
+**signal.h
+    - Değişkenler ve Tanımlar
+    - signal
+    - raise
+
+**stdarg.h
+    - Değişkenler ve Tanımlar
+    - va_start
+    - va_arg
+    - va_end
+
+**stddef.h
+    - Değişkenler ve Tanımlar
+
+**stdio.h
+    - Değişkenler ve Tanımlar
+    - Streams and Files 
+    - Dosya Fonksiyonları
+        + clearerr
+        + fclose
+        + feof
+        + ferror
+        + fflush
+        + fgetpos
+        + fopen
+        + fread
+        + freopen
+        + fseek
+        + fsetpos
+        + fwrite
+        + remove
+        + rename
+        + rewind
+        + setbuf
+        + setvbuf
+        + tmpfile
+        + tmpnam
+    - I/O Fonksiyon Biçimleri 
+        + ...printf Fonksiyonları 
+        + ...scanf Fonksiyonları
+    - I/O Karakter Fonksiyonları
+        + fgetc
+        + fgets
+        + fputc
+        + fputs
+        + getc 
+        + getchar 
+        + gets
+        + putc
+        + putchar
+        + puts
+        + ungetc
+    - Hata Fonksiyonları 
+        + perror            
+
+**stdlib.h 
+    - Değişken ve Karakterler 
+    - Karakter Fonksiyonları
+        + atof
+        + atoi
+        + atol
+        + strtod
+        + strtol
+        + strtoul
+    - Bellk Fonksiyonları
+        + calloc
+        + free
+        + malloc
+        + realloc
+    - Çevre Fonksiyonlar
+        + abort
+        + atexit
+        + exit
+        + getenv
+        + system
+    - Arama ve Sınıflandırma Fonksiyonları
+        + bsearch
+        + qsort
+    - Matematik Fonksiyonları
+        + abs
+        + div
+        + labs
+        + ldiv
+        + rand
+        + srand
+    -Multimedya Functions
+        + mblen
+        + mbstowcs
+        + mbtowc
+        + wcstombs
+        + wctomb
+
+**string.h
+    - Değişkenler ve Tanımlar
+    - memchr
+    - memcmp
+    - memcpy
+    - memmove
+    - memset
+    - strcat
+    - strncat
+    - strchr
+    - strcmp
+    - strncmp
+    - strcoll
+    - strcopy
+    - strcspn
+    - strerror
+    - strlen
+    - strpbrk
+    - strrchr
+    - strspn
+    - strstr
+    - strtok
+    - strxfrm
+
+time.h
+    - Değişken ve Tanımlar
+    - asctime
+    - clock
+    - ctime
+    - difftime
+    - gmtime
+    - localtime
+    - mktime
+    - strftime
+    - time
+
+
+
+
